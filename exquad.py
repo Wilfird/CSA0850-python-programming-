@@ -1,0 +1,11 @@
+a=int(input("enter the number whose discriminant"))
+b=int(input("enter another number"))
+c=int(input("enter the another number"))
+disc=((b*b)-(4*a*c))
+print(disc)
+f=math.sqrt(disc)
+print(f)
+
+sol1=(-b-math.sqrt(disc)/(2*a))
+sol2=(-b+math.sqrt(disc)/(2*a))
+print("the solution 1 is",sol1,"the solution 2 is ", sol2)
